@@ -1,4 +1,5 @@
 /*Estilos globais para centralizar todo o conteúdo*/
+/* Eu fiz algumas mudanças nessa parte*/
 body,
 html {
   height: 100%;
@@ -6,17 +7,26 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:  #f4f4f4;
-  font-family:  Helvetica;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-image: url('assets/rosa - canva.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   text-align: center;
 }
 
+body {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 /* Estilo para cada quadrado*/
+/* mudei as cores*/
 .square {
   width: 100px;
   height: 100px;
-  background-color: #ddd;
-  border: 1px solid #ccc;
+  background-color: #f5a5ee;
+  border: 1px solid #ddd;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
@@ -25,8 +35,9 @@ html {
 }
 
 /*Estilo para o vencedor*/
+/* mudei as cores*/
 .winner {
-  background-color: #ffcc00;
+  background-color: #b860c2;
 }
 
 /* Estilo para o status do jogo */
@@ -38,18 +49,20 @@ html {
 }
 
 /* Estilo para o botão reiniciar */
+/* mudei uma cor*/
 .reset-button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #c321a288;
+  color: #060101;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 /* Estilo para o botão de reiniciar no hover */
+/* mudei uma cor*/
 .reset-button:hover{
-  background-color: #0056b3;
+  background-color: #5c0e5e;
 }
