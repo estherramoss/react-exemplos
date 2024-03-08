@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import styled from "styled-components";
-
 // Componente funcional Header
 const Header = (props) => {
   return (
